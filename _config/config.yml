@@ -1,0 +1,10 @@
+---
+Name: cookieyes-siteconfig
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - _6fdigital\CookieYes\Extension\CookieYesSiteConfigExtension
+
+SilverStripe\CMS\Controllers\ContentController:
+  extensions:
+    - _6fdigital\CookieYes\Control\CookieYesController

@@ -1,0 +1,29 @@
+{
+	"name": "6fdigital/silverstripe-cookieyes",
+	"description": "An extension for SilverStripe for an easy installation of a CookieYes consent banner.",
+	"type": "silverstripe-vendormodule",
+	"keywords": [
+        "silverstripe",
+        "CMS",
+        "GDPR",
+		"Cookies",
+		"Consent"
+	],
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "Marco Kernler",
+            "email": "marco.kernler@6f.digital"
+        }
+	],
+	"require": {
+        "silverstripe/framework": ">=4.0",
+		"silverstripe/cms": ">=4.0",
+		"silverstripe/silverstripe-siteconfig": ">=4.0"
+	},
+	"autoload": {
+        "psr-4": {
+            "6fdigital\\CookieYes\\": "src"
+        }
+    }
+}
